@@ -758,6 +758,7 @@ section {
   height: 250px;
   width: 100%;
   object-fit: cover;
+  border-radius: 8px;
 }
 .portfolio .portfolio-item .portfolio-info {
   opacity: 0;
@@ -769,6 +770,7 @@ section {
   transition: all ease-in-out 0.3s;
   background: #ffc107;
   padding: 15px 20px;
+  border-radius: 5px;
 }
 .portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
