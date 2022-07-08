@@ -264,7 +264,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: url("../img/1.jpg") top center;
+  background: url("../img/2.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -763,8 +763,8 @@ section {
 .portfolio .portfolio-item .portfolio-info {
   opacity: 0;
   position: absolute;
-  left: 15px;
-  right: 15px;
+  left: 12px;
+  right: 12px;
   bottom: -50px;
   z-index: 3;
   transition: all ease-in-out 0.3s;
@@ -1737,7 +1737,7 @@ Blog
   }
 
 .hero-inner {
-  background: url("../img/3.jpg") top center;
+  background: url("../img/28.jpg") top center;
 }
 
 .hero-inner-sights {
