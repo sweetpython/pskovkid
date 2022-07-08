@@ -1560,7 +1560,7 @@ Blog
 
 .container-timeline.right .content {
   padding: 30px 30px 30px 90px;
-  border-radius: 500px 0 0 500px;
+  border-radius: 100px 10px 10px 100px;
 }
 
 .container-timeline .content h2 {
@@ -1742,6 +1742,10 @@ Blog
   background: url("../img/18.jpg") top center;
 }
 
+.hero-inner-nature {
+  background: url("../img/24.jpg") top center;
+}
+
 blockquote {
     margin: 0;
 }
@@ -1880,4 +1884,40 @@ button.close {
 .modal-header .close {
     padding: 0.1rem 0.5rem;
     margin: -1rem -1rem -1rem auto;
+}
+
+.card {
+  border: none;
+  transition: all 0.5s ease;
+  overflow: hidden; 
+}
+
+.card:hover {
+  transform:  scale(1.05);
+
+}
+
+.card-img {
+  height: 15vw;
+  object-fit: cover;
+  border-radius: 8px;
+  /* -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out; */
+}
+
+/* .card-img:hover {
+  -webkit-transform: scale(1.04);
+	transform: scale(1.04);
+} */
+
+@media (max-width: 568px) {
+  .card-img {
+    height: 45vw;
+    object-fit: cover;
+    border-radius: 5px;
+  }
 }
