@@ -513,7 +513,7 @@ section {
   transition: all ease-in-out 0.3s;
   background: #fff;
   box-shadow: 0px 5px 35px 0px rgba(110, 123, 131, 0.08);
-  min-width: 100%;
+  width: 415px;
   height: 320px;
   border-radius: 10px;
 }
@@ -821,9 +821,9 @@ section {
 .portfolio .portfolio-item .portfolio-info .details-link {
   right: 15px;
 }
-.portfolio .portfolio-item:hover img {
+/* .portfolio .portfolio-item:hover img {
   top: -30px;
-}
+} */
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
   bottom: 0;
@@ -1940,12 +1940,12 @@ button.close {
 
 .card {
   border: none;
-  transition: all 0.5s ease;
+  transition: all 0.01s ease;
   overflow: hidden; 
 }
 
 .card:hover {
-  transform:  scale(1.02);
+  transform:  scale(1.01);
 
 }
 
@@ -1972,7 +1972,43 @@ button.close {
     object-fit: cover;
     border-radius: 5px;
   }
+  .services .icon-box {
+    text-align: center;
+    padding: 60px 20px 80px 20px;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+    box-shadow: 0px 5px 35px 0px rgba(110, 123, 131, 0.08);
+    width: 400px!important;
+    height: 320px;
+    border-radius: 10px;
+  }
 }
+
+@media (max-width: 992px) {
+  .services .icon-box {
+    text-align: center;
+    padding: 60px 20px 80px 20px;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+    box-shadow: 0px 5px 35px 0px rgba(110, 123, 131, 0.08);
+    width: 350px;
+    height: 320px;
+    border-radius: 10px;
+  }
+}
+@media (max-width: 1400px) {
+  .services .icon-box {
+    text-align: center;
+    padding: 60px 20px 80px 20px;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+    box-shadow: 0px 5px 35px 0px rgba(110, 123, 131, 0.08);
+    width: 320px;
+    height: 320px;
+    border-radius: 10px;
+  }
+}
+
 
 /* .btn-scroll {
   position: absolute;
@@ -2076,3 +2112,50 @@ button.close {
   -moz-transform: rotateY(0);
   transform: rotateY(0)
 } */
+
+.sights-card:hover {
+  transform: scale(1.0);
+}
+
+.sights-card img {
+  transition: all .5s
+}
+
+.sights-card:hover img {
+  transform: scale(1.05);
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s
+}
+
+.card-img-overlay {
+  background: linear-gradient(180deg,transparent,rgb(52, 58, 64, 0.60));
+}
+
+.link-underline {
+  font-size: 18px;
+  font-weight: 600;
+  color: #f4f5f8;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s;
+}
+
+.sights-card:hover .link-underline{
+  background-size: 100% 2px;
+  color: #ffc107;
+  
+}
+
+.bxs-map {
+  color: #f4f5f8;
+  color: #ff5828;
+}
+
+.sights-about {
+  font-size: 14px;
+  color: #f4f5f8;
+}
