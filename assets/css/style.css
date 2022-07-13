@@ -2284,3 +2284,21 @@ button.close {
   box-shadow: rgb(0 0 0 / 15%) 0px 0px 35px 0px !important;
   color: rgb(71, 84, 110);
 } */
+
+
+.link-underline-dark {
+  font-weight: 600;
+  color: #444444;
+  text-decoration: none !important;
+  background-image: linear-gradient(currentColor, currentColor) !important;
+  background-position: 0% 100% !important;
+  background-repeat: no-repeat !important;
+  background-size: 0% 2px !important;
+  transition: background-size .3s !important;
+}
+
+.icon-box:hover .link-underline-dark{
+  background-size: 100% 2px !important;
+  color: #444444;
+  
+}
