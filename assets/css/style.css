@@ -2190,3 +2190,97 @@ button.close {
 .bg-teal {
   background-color: #11dbcf;
 }
+
+/* .c1 {
+  background-color: #47afffce !important;
+}
+.c2 {
+  background-color: #ffbc2cd2 !important;
+}
+.c3 {
+  background-color: #3e9e4eda !important;
+}
+
+.c4 {
+  background-color: #ff5728ce !important;
+}
+.c5 {
+  background-color: #11dbceda !important;
+}
+.c6 {
+  background-color: #ffa86eda !important;
+  
+} */
+
+.c1:hover {
+  background-color: #47afff83 !important;
+}
+.c2:hover {
+  background-color: #ffbc2c86 !important;
+}
+.c3:hover {
+  background-color: #3e9e4e81 !important;
+}
+.c4:hover {
+  background-color: #ff572877 !important;
+}
+.c5:hover {
+  background-color: #11dbce79 !important;
+}
+.c6:hover {
+  background-color: #ffa86e7a !important;
+}
+
+.services .iconbox-blue:hover .icon {
+  background: #f5f5f5 !important;
+}
+
+.services .iconbox-blue:hover .icon i {
+  color: #47aeff !important;
+}
+
+.services .iconbox-yellow:hover .icon {
+  background: #f5f5f5 !important;
+}
+
+.services .iconbox-yellow:hover .icon i {
+  color: #ffbb2c !important;
+}
+
+.services .iconbox-green:hover .icon {
+  background: #f5f5f5 !important;
+}
+
+.services .iconbox-green:hover .icon i {
+  color: #3e9e4e !important;
+}
+
+.services .iconbox-red:hover .icon {
+  background: #f5f5f5 !important;
+}
+
+.services .iconbox-red:hover .icon i {
+  color: #ff5828 !important;
+}
+
+.services .iconbox-teal:hover .icon {
+  background: #f5f5f5 !important;
+}
+
+.services .iconbox-teal:hover .icon i {
+  color: #11dbcf !important;
+}
+
+.services .iconbox-orange:hover .icon {
+  background: #f5f5f5 !important;
+}
+
+.services .iconbox-orange:hover .icon i {
+  color: #ffa76e !important;
+}
+
+/* .services .icon-box:hover {
+  border-color: rgb(255, 255, 255);
+  box-shadow: rgb(0 0 0 / 15%) 0px 0px 35px 0px !important;
+  color: rgb(71, 84, 110);
+} */
