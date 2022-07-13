@@ -1576,7 +1576,8 @@ Blog
   height: 40px;
   padding: 9px 0;
   top: calc(50% - 20px);
-  background: #f8dd86;
+  /* background: #f8dd86;
+  background: #ffbc2c86; */
   border: 2px solid #006E51;
   border-radius: 40px;
   text-align: center;
@@ -1596,6 +1597,7 @@ Blog
 .container-timeline .content {
   padding: 30px 90px 30px 30px;
   background: #F6D155;
+  background: #ffbc2c86;
   position: relative;
   /* border-radius: 0 500px 500px 0; */
   border-radius: 10px 100px 100px 10px;
@@ -1605,6 +1607,7 @@ Blog
 .container-timeline .content:hover {
     padding: 30px 90px 30px 30px;
     background: #f8dd86;
+    background: #ffbc2caf;
     position: relative;
     /* border-radius: 0 500px 500px 0; */
     border-radius: 10px 100px 100px 10px;
@@ -2279,13 +2282,6 @@ button.close {
   color: #ffa76e !important;
 }
 
-/* .services .icon-box:hover {
-  border-color: rgb(255, 255, 255);
-  box-shadow: rgb(0 0 0 / 15%) 0px 0px 35px 0px !important;
-  color: rgb(71, 84, 110);
-} */
-
-
 .link-underline-dark {
   font-weight: 600;
   color: #444444;
@@ -2302,3 +2298,9 @@ button.close {
   color: #444444;
   
 }
+
+/* .services .icon-box:hover {
+  border-color: rgb(255, 255, 255);
+  box-shadow: rgb(0 0 0 / 15%) 0px 0px 35px 0px !important;
+  color: rgb(71, 84, 110);
+} */
